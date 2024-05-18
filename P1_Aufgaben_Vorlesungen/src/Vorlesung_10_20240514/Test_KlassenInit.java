@@ -2,7 +2,7 @@ package Vorlesung_10_20240514;
 
 public class Test_KlassenInit {
 
-        public static void test( int... args ){
+        public static void main( int... args ){
             
             Date x;
             x = new Date(); // Neues Exemplar des Typ (Klasse) Datum erstelen. 
