@@ -28,6 +28,8 @@ public class Übung1_TypeCast {
         System.out.printf("was passiert, wenn man  short s = x druckt?\n");
         System.out.printf("s ist = %d", s);
 
+        
+        
     }
 
 

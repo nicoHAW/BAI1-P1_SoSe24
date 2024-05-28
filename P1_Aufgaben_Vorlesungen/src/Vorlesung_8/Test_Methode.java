@@ -2,7 +2,7 @@ package Vorlesung_8;
 
 public class Test_Methode {
 
-    public void test( int... args ){
+    public static void main(String[] args) {
 
         
         for( int i=0; i<args.length; i++ ){

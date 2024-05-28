@@ -25,8 +25,17 @@ class Fraction {
     
     void add( Fraction f ){
         this.n = this.n*f.d + f.n*this.d; //this bezieht sich auf die Feldvariable. mit f.d bezeiht man sich auf die Variable innerhalb dieser Methode. 
+        
+        System.out.println("Der Zähler ist: " + this.d);
+        System.out.println("Der Nenner ist: " + this.n);
+        
         this.d = this.d*f.d;
 
-        System.out.println(this.n);
+        System.out.println("Der Zähler ist: " + this.d);
+        System.out.println("Der Nenner ist: " + this.n);
+        
+        
+        
+        
     }//method()
 }//class
